@@ -1,0 +1,16 @@
+#event-section{
+    z-index: -1;
+}
+#event-section h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #D1AF78;
+    padding: 50px;
+}
+.pt_60{
+    padding-top: 60px;
+}
+.pb_40{
+    padding-bottom: 40px;
+}

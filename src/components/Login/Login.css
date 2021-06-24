@@ -1,0 +1,23 @@
+.login{
+    text-align: center;
+    background-color: lavender;
+    height: 700px;
+    padding-top: 100px;
+}
+
+.login input{
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 6px;
+    
+}
+.button-login{
+    background-color: lightyellow;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.confirm-pass{
+    margin-bottom: 10px;
+}

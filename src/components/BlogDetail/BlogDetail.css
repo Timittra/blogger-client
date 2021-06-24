@@ -1,0 +1,18 @@
+.blog_content{
+    background-color: black;
+    height: 900px;
+    padding: 100px 0;
+}
+.detail{
+    /* margin: 100px; */
+    color: gray;
+}
+.detail h1{
+    color: gray;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.detail img{
+    box-shadow: 5px 5px 10px grey;
+    margin-bottom: 20px;
+}
