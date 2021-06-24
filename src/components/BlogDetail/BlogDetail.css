@@ -16,3 +16,18 @@
     box-shadow: 5px 5px 10px grey;
     margin-bottom: 20px;
 }
+@media (max-width: 991.98px) { 
+    .blog_content{
+        height: 1200px;
+    }
+}
+@media (max-width: 767.98px) { 
+    .blog_content{
+        height: 1400px !important;
+    }
+}
+@media (max-width: 575.98px) { 
+    .blog_content{
+        height: 2000px;
+    }
+}
