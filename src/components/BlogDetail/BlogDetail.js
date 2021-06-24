@@ -8,7 +8,7 @@ const BlogDetail = () => {
     let {id} = useParams();
     
     useEffect(()=>{
-        fetch(`http://localhost:6030/blog/${id}`)
+        fetch(`https://enigmatic-plateau-70220.herokuapp.com/blog/${id}`)
         .then(res => res.json())
         .then(result => setBlog(result));
        

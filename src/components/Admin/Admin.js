@@ -20,7 +20,7 @@ const Admin = () => {
 
 
     useEffect(() =>{
-        fetch('http://localhost:6030/blogs')
+        fetch('https://enigmatic-plateau-70220.herokuapp.com/blogs')
         .then(res => res.json())
         .then(data => {
             setBlogs(data);
@@ -30,7 +30,7 @@ const Admin = () => {
 
     const deleteBlog =(id) => {
         
-      fetch(`http://localhost:6030/deleteBlog/${id}`,{
+      fetch(`https://enigmatic-plateau-70220.herokuapp.com/deleteBlog/${id}`,{
             method:'DELETE'
         })
         .then(res => res.json())
@@ -47,7 +47,7 @@ const Admin = () => {
             description: data.description,
             imageURL: imageURL
         };
-        const url = `http://localhost:6030/addBlogs`;
+        const url = `https://enigmatic-plateau-70220.herokuapp.com/addBlogs`;
 
         fetch(url, {
           method: 'POST', 
